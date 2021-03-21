@@ -2,6 +2,7 @@
 cd /tmp/rom # Depends on where source got synced
 
 # Normal build steps
+python -v
 . build/envsetup.sh
 lunch potato_violet-userdebug
 export CCACHE_DIR=/tmp/ccache
@@ -22,7 +23,7 @@ ccache -z # Clear old stats, so monitor script will provide real ccache statisti
 #make system-api-stubs-docs || echo no problem
 #make test-api-stubs-docs || echo no problem
 
-brunch violet -j10 &  # I used bacon build command
+mka potato -j10 &  # I used bacon build command
 sleep 85m # Lets give some space for uploading ccache
 kill %1 # better way to kill it!
 ccache -s

@@ -11,5 +11,5 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 
 git clone https://github.com/PotatoDevices/device_xiaomi_violet.git device/xiaomi/violet
 git clone https://github.com/PotatoDevices/vendor_xiaomi_violet.git vendor/xiaomi/violet
-git clone https://github.com/PotatoDevices/kernel_xiaomi_violet.git kernel/xiaomi/violet
+git clone https://github.com/PotatoDevices/kernel_xiaomi_violet.git kernel/xiaomi/violet --depth=1
 git clone https://github.com/adi8900/vendor_xiaomi_dirac.git vendor/xiaomi/dirac
