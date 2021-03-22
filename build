@@ -1,6 +1,9 @@
 #!/bin/bash
 cd /tmp/rom # Depends on where source got synced
 
+
+sudo apt-get install python2 -y
+
 # Normal build steps
 python --version
 . build/envsetup.sh
