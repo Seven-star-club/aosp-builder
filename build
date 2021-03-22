@@ -32,7 +32,7 @@ up(){
 #make system-api-stubs-docs || echo no problem
 #make test-api-stubs-docs || echo no problem
 
-mka potato -j20 &  # I used bacon build command
+mka potato -j20   # I used bacon build command
 up out/target/product/violet/*zip
 ccache -s
 #and dont use below codes for first 1 or 2 times, to get ccache uploaded,
