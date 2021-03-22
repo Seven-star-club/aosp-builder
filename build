@@ -32,7 +32,7 @@ up(){
 #make system-api-stubs-docs || echo no problem
 #make test-api-stubs-docs || echo no problem
 
-mka potato -j14   # I used bacon build command
+mka potato -j10   # I used bacon build command
 #sleep 85m # Lets give some space for uploading ccache
 #kill %1 # better way to kill it!
 up out/target/product/violet/*zip
