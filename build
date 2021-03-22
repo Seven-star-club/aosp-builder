@@ -37,4 +37,4 @@ up out/target/product/violet/*zip
 ccache -s
 #and dont use below codes for first 1 or 2 times, to get ccache uploaded,
 #as instructed, i removed below lines temporarily. Will add those from 2nd or 3rd builds may be.
-#yes
+#yes yes
