@@ -4,7 +4,6 @@ cd /tmp/rom # Depends on where source got synced
 #Some dependencies
 sudo apt-get install python2 -y
 sudo apt-get install cpio -y
-export LC_ALL=C
 
 # Normal build steps
 python --version
